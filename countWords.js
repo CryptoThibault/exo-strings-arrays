@@ -13,12 +13,3 @@ Et j'ai deux fois vainqueur traversé l'Achéron;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 
-let wordc = 0
-for (let i = 0; i < text.length; ++i) {
-  if (text[i] === ' ' || text[i] === '\n' || text[i] === '\'') {
-    wordc++
-  } else if (text[i] === '-' || text[i] === '?' || text[i] === ':') {
-    wordc--
-  }
-}
-console.log(`Le nombre de mots est ${wordc}.`);
