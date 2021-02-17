@@ -21,4 +21,4 @@ for (let i = 0; i < text.length; ++i) {
     wordc--
   }
 }
-console.log(`Le nombre de mots est ${wordc}.`)
+console.log(`Le nombre de mots est ${wordc}.`);
