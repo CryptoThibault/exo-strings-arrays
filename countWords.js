@@ -11,5 +11,10 @@ Mon front est rouge encor du baiser de la reine;
 J'ai rêvé dans la grotte où nage la sirène...
 Et j'ai deux fois vainqueur traversé l'Achéron;
 Modulant tour à tour sur la lyre d'Orphée
-Les soupirs de la sainte et les cris de la fée.`
+Les soupirs de la sainte et les cris de la fée.`.split()
 
+let i = 0
+for (let elem of text) {
+  ++i
+}
+console.log(`Le nombre de mot est ${i}.`)

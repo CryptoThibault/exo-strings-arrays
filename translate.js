@@ -1,5 +1,5 @@
 let str = '\n\n\t\tAlIcE eT bOb EsSaYeNt De CoMmUnIqUeR sEcReTeMeNt, MaIs EvE vEiLlE  \n\n '
-str = str.trim().toUpperCase().split(' ').forEach
+str = str.trim().toUpperCase().split(' ')
 for (let elem of str) {
-  console.log(elem)
+  console.log(`mot: ${elem}`)
 }
