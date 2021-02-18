@@ -3,5 +3,5 @@ As the use of Alice and Bob became more widespread, additional characters were a
 The most common characters are Alice and Bob. Eve, Mallory, and Trent are also common names."
 console.log(text.replaceAll('Alice', 'Thibault'))
 
-//const regex = /Alice/i;
-//console.log(text.replaceAll(regex, 'Thibault'))
+// const regex = /Alice/ig;
+// console.log(text.replaceAll(regex, 'Thibault'))
