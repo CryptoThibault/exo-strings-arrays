@@ -17,5 +17,14 @@ Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 
 text = text.replaceAll('\n', ' ')
+text = text.replaceAll('\'', ' ')
+text = text.replaceAll('-', '*')
+text = text.replaceAll('?', '*')
+text = text.replaceAll(':', '*')
 let tab = text.split(' ')
-console.log(`Le nombre de mot est ${tab.length}.`)
+let su = 0
+for (let elem of tab)
+  if (elem === '*') {
+    su++
+  }
+console.log(`Le nombre de mot est ${tab.length - su}.`)
