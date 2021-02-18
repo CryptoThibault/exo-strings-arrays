@@ -22,7 +22,7 @@ text = text.replaceAll('-', '*')
 text = text.replaceAll('?', '*')
 text = text.replaceAll(':', '*')
 let tab = text.split(' ')
-let su = 0
+let su = 3
 for (let elem of tab)
   if (elem === '*') {
     su++
