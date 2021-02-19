@@ -2,7 +2,7 @@ let code = 'YRMV PFL VMVI YRU R UIVRD EVF KYRK PFL NVIV JF JLIV NRJ IVRC NYRK ZW
 let t = 0
 let list = []
 let index = 0
-for (j = 0; j < 25; j++) {
+for (j = 1; j < 26; j++) {
   t++
   list = []
   for (i = 0; i < code.length; i++) {
@@ -15,6 +15,5 @@ for (j = 0; j < 25; j++) {
     }
     list.push(String.fromCharCode(index))
   }
-  console.log(`Essaie n°${j}`)
-  console.log(list.join('') + '\n')
+  console.log(`Essai n°${j}:\n${list.join('')}\n`)
 }
