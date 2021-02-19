@@ -11,7 +11,7 @@ for (j = 1; j < 26; j++) { // Boucle pour chaque code final
   nbl = 0
   for (i = 0; i < code.length; i++) { // Boucle pour chaque caractére
     index = code.charCodeAt(i)
-    if (index + t >= 65 && index + t <= 90) { // Si le charCode va de 65 à 89
+    if (index + t >= 65 && index + t <= 90) { // Si le charCode va de 65 à 90
       index = index++ + t
     }
     else if (index + t >= 91) { // Si le charCode dépasse 90
