@@ -1,6 +1,6 @@
 let code = 'YRMV PFL VMVI YRU R UIVRD EVF KYRK PFL NVIV JF JLIV NRJ IVRC NYRK ZW PFL NVIV LERSCV KF NRBV WIFD KYRK UIVRD YFN NFLCU PFL BEFN KYV UZWWVIVETV SVKNVVE KYV UIVRD NFICU REU KYV IVRC NFICU'
 let t = 0 // Décalage initial 0
-let nbl = 0 // Nombre de lettres récurentess
+let nbl = 0 // Nombre de lettres récurentes
 let list = [] // Liste pour chaque caractére
 let nbllist = [] // Liste pour chaque nombre de lettres récurentes
 let codelist = [] // Liste pour chaque code final
