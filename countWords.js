@@ -17,6 +17,4 @@ Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée. `
 
 text = text.split(' ')
-for (i = 0; i < text.length; i++) {
-}
-console.log(`Le nombre de mots est ${i}.`);
+console.log(`Le nombre de mots est ${text.length}.`);
